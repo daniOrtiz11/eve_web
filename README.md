@@ -1,5 +1,5 @@
 # EVE
-<i>“¡Asiste, vive experiencias únicas y conoce gente nueva!”</i></br>
+<i>“¡Asiste, vive experiencias únicas y conoce gente nueva!”</i></br></br>
 Proyecto de alumnos de la Universidad Complutense de Madrid. </br>
 EVE surge de la idea de combinar en una misma plataforma la posibilidad de estar al tanto de todas las actividades que se llevarán a cabo en tu ciudad, así como de poder conocer gente nueva con tus mismos gustos. </br>
 La idea original pertenece a aplicaciones como ‘Fever’ (Planes de ocio) y ‘Tinder’ (Interactuar con otros usuarios a través de mensajería y/o Me gusta). </br>
