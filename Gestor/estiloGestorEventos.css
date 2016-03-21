@@ -1,0 +1,230 @@
+﻿body{
+
+background-image: url('../img/4.jpg');
+ background-size: cover; 
+}
+
+#contenedor{
+	color: : #9ABCCD;
+	width: 900px;
+	margin-top: 30px;
+	margin: auto;
+}
+#cabecera {
+	font-family: fantasy;
+	font-weight: bold;
+	height: 75px;
+	font-size:25px;
+	float: right;
+	margin-top:30px;
+	margin-right: 600px;
+	padding:5px;
+}
+
+
+/*Distintos tipos de h1*/
+	#festi{
+	color: #991111;
+	}
+	#ocio{
+	color:#26822c;
+	}
+	#gastro{
+	color:#f0a50e;
+	}
+	#depor{
+	color:#06389C;
+	}
+	#cultu{
+	color:#754833;
+	}
+	#viaje{
+	color:#c9e817;
+	}
+	
+#logo{
+	height: 200px;
+	margin-left:100px;
+	}
+#img2{
+float: right;
+margin-top:-226px;
+}
+
+#img1 img{
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 8px;
+border-top-right-radius: 8px;
+height:222px;
+width:450px;
+}
+#img2 img{
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 8px;
+border-top-left-radius: 8px;
+height:222px;
+width:450px;
+}
+/*Distintos submits*/
+#submitfesti{
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #991111;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+#submitocio{
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #26822c;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+#submitdepor{
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #06389C;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+#submitgastro{
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #f0a50e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+#submitcultu{
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #754833;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+#submitviaje{
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #c9e817;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+#boton:hover {
+  background: #3cb0fd;
+
+  text-decoration: none;
+}
+
+.addevento h1, .addevento label {
+	font-family: Georgia, Times, "Times New Roman", serif;
+ } 
+ 
+ .addevento{
+	font-size: 11px;
+ } 
+ 
+ /* === List Styles === */
+ .addevento ul {
+	 width: 750px;
+	 list-style-type: none;
+	 list-style-position: outside;
+	 margin: 0px; 
+	 padding: 0px;
+ }
+ 
+ .addevento li {
+	 padding: 12px;
+	 border-bottom: 1px solid #eee;
+	 position: relative;
+ }
+ 
+ .addevento li:last-child {
+	border-bottom: 2px solid #777;
+ }
+ 
+  .addevento li:first-child{
+	border-top: 2px solid #777;
+	}
+ 
+ /* === Form Header === */
+ .addevento h1 {
+	 margin: 0;
+	 display: inline;
+ }
+ 
+ /* === Form Elements === */
+ .addevento label {
+	 width: 150px;
+	 margin-top: 3px;
+	 display: inline-block;
+	 float: left;
+	 padding: 3px;
+ }
+ 
+ .addevento input { 
+	 height: 20px;
+	 width: 220px; 
+	 padding: 5px 8px; 
+ } 
+ 
+ .addevento button{
+	float: center;
+ }
+ 
+ /* form element visual styles */
+ .addevento input {
+	 border: 1px solid #aaa;
+	 box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	 border-radius: 2px; 
+	 padding-right: 30px;
+	 transition: padding .25s; 
+ }
+ 
+ .addevento input:focus{
+	 background: #fff;
+	 border: 1px solid #555;
+	 box-shadow: 0 0 3px #aaa;
+	 padding-right: 70px;
+ }
+ 
+ /* === HTML5 validation styles === */ 
+ .addevento input:required{
+	background: #fff url(images/red_asterisk.png) no-repeat 98% center;
+ }
+ 
+ .addevento input:required:valid{
+	 background: #fff url(images/valid.png) no-repeat 98% center;
+	 box-shadow: 0 0 5px #5cd053;
+	 border-color: #28921f; 
+ }
+ 
+ .addevento input:focus:invalid{
+	 background: #fff url(images/invalid.png) no-repeat 98% center; 
+	 box-shadow: 0 0 5px #d45252;
+	 border-color: #b03535;
+ } 
+ 
+  .required {
+	color: red;
+	}
+	
+	 #acepto{
+	height: 15px;
+	width: 15px;
+	/*padding: 4px 6px;*/
+	border-radius:10px;
+	background-color:grey;
+	}
