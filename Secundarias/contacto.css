@@ -1,0 +1,134 @@
+body{
+
+background-image: url('../img/4.jpg');
+ background-size: cover; 
+}
+
+#logo{
+	height: 200px;
+	margin-left: 100px;
+	}
+#contenedor{
+	/*color: : #9ABCCD;*/
+	/*background-color: #2282E2;*/
+	width: 900px;
+	margin-top: 30px;
+	margin: auto;
+}
+
+#contacto{
+margin-left:350px;
+}
+
+#contacto ul {
+	 width: 750px;
+	 list-style-type: none;
+	 list-style-position: outside;
+	 margin: 0px; 
+	 padding: 0px;
+ }
+ 
+ #contacto li {
+	 padding: 12px;
+	 border-bottom: 1px solid #eee;
+	 position: relative;
+ }
+ 
+ #contacto li:first-child, #contacto li:last-child {
+	border-bottom: 1px solid #777;
+ }
+ 
+ /* === Form Header === */
+ #contacto h1 {
+		font-size: 35px;
+		font-weight: bold;
+		font-family: verdana;
+ }
+ 
+ /* === Form Elements === */
+ #contacto label {
+	 width: 150px;
+	 margin-top: 3px;
+	 display: inline-block;
+	 float: left;
+	 padding: 3px;
+ }
+ 
+ #contacto input { 
+	 height: 20px;
+	 width: 220px; 
+	 padding: 5px 8px; 
+ } 
+ 
+ #contacto button{
+	float: center;
+ }
+ 
+  /* === HTML5 validation styles === */ 
+ #contacto input:required{
+	background: #fff url(images/red_asterisk.png) no-repeat 98% center;
+ }
+ 
+ #contacto input:required:valid{
+	 background: #fff url(images/valid.png) no-repeat 98% center;
+	 box-shadow: 0 0 5px #5cd053;
+	 border-color: #28921f; 
+ }
+ 
+ #contacto input:focus:invalid{
+	 background: #fff url(images/invalid.png) no-repeat 98% center; 
+	 box-shadow: 0 0 5px #d45252;
+	 border-color: #b03535;
+ } 
+
+ #required {
+	color: red;
+	}
+	
+	 #acepto{
+	height: 20px;
+	width: 20px;
+	padding: 5px 8px;
+	}
+	
+button#submit {
+	 background-color: #68b12f;
+	 border: 1px solid #509111;
+	 border-radius: 3px; 
+	 box-shadow: inset 0 1px 0 0 #9fd574;
+	 color: white;
+	 font-weight: bold;
+	 padding: 6px 20px;
+	 text-align: center;
+	 text-shadow: 0 -1px 0 #396715;
+ }
+ 
+button#submit:hover {
+	opacity: .85; cursor: pointer;
+ }
+ 
+button#submit:active {
+	 border: 1px solid #20911e;
+	 box-shadow: 0 0 10px 5px #356b0b inset;
+}
+ 
+button#reset {
+	 background-color: #68b12f;
+	 border: 1px solid #509111;
+	 border-radius: 3px; 
+	 box-shadow: inset 0 1px 0 0 #9fd574;
+	 color: white;
+	 font-weight: bold;
+	 padding: 6px 20px;
+	 text-align: center;
+	 text-shadow: 0 -1px 0 #396715;
+ }
+ 
+ button#reset:hover {
+	opacity: .85; cursor: pointer;
+ }
+ 
+ button#reset:active {
+	 border: 1px solid #20911e;
+	 box-shadow: 0 0 10px 5px #356b0b inset;
+ }

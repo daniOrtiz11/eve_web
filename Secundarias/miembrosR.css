@@ -1,0 +1,130 @@
+body{
+background-color:#FFFFFF;
+margin:0 auto;
+width:auto;
+}
+#imagen{
+float:left;
+width:103px;
+margin-top:-2px;
+}
+
+#menuDiv1{
+height:49px;
+width:100%;
+margin-top:0px;
+background-color: #D00000 ;
+}
+#menuDiv2{
+height:46px;
+width:100%;
+background-image:linear-gradient(#707070,#505050) ;
+}
+#menuDiv1 p{
+float:left;
+margin-left:1%;
+color: #FFFFFF;
+font: bold 18px Arial, Helvetica, sans-serif;
+text-shadow: 0 2px 0 #000000;
+}
+
+
+#menu1{
+list-style: none;
+height:100%;
+margin-top:0px;
+margin-left:60%;
+} 
+#menu1 li{
+width: 24%;
+border-left: 1px solid #282828;
+border-radius:3px;
+float:left;
+height:100%;
+background-color: #D00000 ;
+
+}
+#menu1 li:hover{
+background-color:#980000;
+}
+#menu1 a.texto{
+float:left;
+margin-left:5px;
+margin-top:17px;
+color: #FFFFFF;
+font: bold 14px Arial, Helvetica, sans-serif;
+text-shadow: 0 2px 0 #000000;
+text-decoration: none;
+}
+
+#menu2{
+list-style: none;
+margin-top:-16px;
+} 
+#menu2 li{
+padding: 12px;
+width: 15%;
+margin-left:1%;
+float:left;
+height:10%;
+background-image:linear-gradient(#707070,#505050);
+text-align:center;
+}
+#menu2 li:hover{
+background-image:linear-gradient(#202020,#505050);
+}
+#menu2 a{
+color: #FFFFFF;
+font: bold 14px Arial, Helvetica, sans-serif;
+text-shadow: 0 2px 0 #000000;
+text-decoration: none;
+}
+
+#contenedor{
+height:100%;
+width:100%;
+margin-top:0%;
+background: rgba(210,210,210, 0.5);
+}
+#contenedor h2{
+font: bolder 40px Verdana, Helvetica;
+text-shadow: 0 2px 0 #000000;
+color:#685858;
+}
+#contenedor p{
+font: bolder 14px Verdana, Helvetica;
+text-shadow: 0 1px 0 #000000;
+color:#285858;
+}
+#intro {
+text-align:center;
+font: bolder 20px Verdana, Helvetica;
+text-shadow: 0 1px 0 #000000;
+color:#585858;
+width:80%;
+margin-left:8%;
+border-top: 1px solid #B0B0B0;
+
+}
+
+#entrada{
+width:36%;
+margin-top:4%;
+margin-left:3%;
+}
+#perfil{
+margin-top:6%;
+width:25%;
+margin-left:8%;
+}
+#mensaje{
+margin-top:6%;
+width:30%;
+margin-left:6%;
+}
+
+#salir{
+width:25%;
+margin-top:10px;
+margin-left:8%;
+}

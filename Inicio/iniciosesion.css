@@ -1,0 +1,123 @@
+body{
+	background-image: url('../img/festival-gente.jpg');
+	}
+
+#contenedor{
+	/*color: : #9ABCCD;*/
+	/*background-color: #2282E2;*/
+	width: 900px;
+	margin-top: 30px;
+	margin: auto;
+}
+
+#cliente{
+	font-family: fantasy;
+	font-style: italic;
+	font-weight: bold;
+	height: 200px;
+	font-size: 40px;
+	float: right;
+	}
+	
+/* === Remove input autofocus webkit === */
+ *:focus { 
+	outline: none; 
+ }
+ 
+ /* === Form Typography === */
+ body {
+	font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
+ } 
+ 
+ .inicia_sesion h2{
+	font-family: Georgia, Times, "Times New Roman", serif;
+ } 
+ 
+ .form_hint{
+	font-size: 11px;
+ } 
+ 
+ /* === List Styles === */
+ .inicia_sesion ul {
+	 width: 750px;
+	 list-style-type: none;
+	 list-style-position: outside;
+	 margin: 0px; 
+	 padding: 0px;
+ }
+ 
+ .inicia_sesion li {
+	 padding: 12px;
+	 position: relative;
+ }
+ 
+
+ 
+/* === Form Elements === */
+.inicia_sesion input { 
+	 height: 20px;
+	 width: 220px; 
+	 padding: 5px 8px; 
+ } 
+ 
+ .inicia_sesion button{
+	float: center;
+ }
+ 
+  /* === HTML5 validation styles === */ 
+ .inicia_sesion input:required{
+	background: #fff url(images/red_asterisk.png) no-repeat 98% center;
+ }
+ 
+ .inicia_sesion input:required:valid{
+	 background: #fff url(images/valid.png) no-repeat 98% center;
+	 box-shadow: 0 0 5px #5cd053;
+	 border-color: #28921f; 
+ }
+ 
+ .inicia_sesion input:focus:invalid{
+	 background: #fff url(images/invalid.png) no-repeat 98% center; 
+	 box-shadow: 0 0 5px #d45252;
+	 border-color: #b03535;
+ } 
+ 
+ /* === Button Style === */
+.submit {
+	 background-color: #68b12f;
+	 border: 1px solid #509111;
+	 border-radius: 3px; 
+	 box-shadow: inset 0 1px 0 0 #9fd574;
+	 color: white;
+	 font-weight: bold;
+	 padding: 3px 8px;
+	 text-align: center;
+	 text-shadow: 0 -1px 0 #396715;
+	 text-decoration: none;
+	 margin-left: 100px;
+ }
+ 
+.submit:hover {
+	opacity: .85; cursor: pointer;
+ }
+ 
+.submit:active {
+	 border: 1px solid #20911e;
+	 box-shadow: 0 0 10px 5px #356b0b inset;
+}
+ #blanco {
+ border: 1px solid black;
+ background-color: white;
+ width: 300px;
+ border-radius: 5px;
+ }
+ 
+ #olvido{
+ font-size: 15px;
+ color: blue;
+ text-decoration: none;
+ }
+ #iniciogestor{
+  font-size: 25px;
+ color: blue;
+ text-decoration: none;
+ }

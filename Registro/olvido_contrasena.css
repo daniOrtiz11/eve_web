@@ -1,0 +1,211 @@
+
+body{
+background-color:#FFFFFF;
+margin:0 auto;
+width:auto;
+}
+
+#contenedor{
+	color: : #9ABCCD;
+	background: rgba(200,200,200, 0.7);
+	width: 1000px;
+	height:800px;
+	border: 2px solid #B0B0B0;
+	margin: 0 auto;
+	border-radius: 6px;
+}
+
+#menuDiv1{
+height:49px;
+width:100%;
+margin-top:0px;
+background-color: #D00000 ;
+}
+
+#menuDiv1 p{
+float:left;
+margin-left:1%;
+color: #FFFFFF;
+font: bold 18px Arial, Helvetica, sans-serif;
+text-shadow: 0 2px 0 #000000;
+}
+
+
+#menu1{
+list-style: none;
+height:100%;
+margin-top:0px;
+margin-left:76%;
+} 
+#menu1 li{
+width: 45%;
+border-left: 1px solid #282828;
+border-radius:3px;
+float:left;
+height:100%;
+background-color: #D00000 ;
+
+}
+#menu1 li:hover{
+background-color:#980000;
+}
+#menu1 a.texto{
+float:left;
+margin-left:5px;
+margin-top:17px;
+color: #FFFFFF;
+font: bold 14px Arial, Helvetica, sans-serif;
+text-shadow: 0 2px 0 #000000;
+text-decoration: none;
+}
+#menuDiv2{
+height:46px;
+width:100%;
+background-image:linear-gradient(#707070,#505050) ;
+}
+
+#menuDiv2 p{
+margin-left:10%;
+float:left;
+padding: 0px  50px ;
+color: #FFFFFF;
+font: bold 15px Arial, Helvetica, sans-serif;
+text-shadow: 0 2px 0 #000000;
+text-decoration: none;
+}
+#imagen{
+float:left;
+width:103px;
+margin-top:-2px;
+}
+#titulo h1{
+font: bold 50px Verdana, Helvetica;
+	text-shadow: 0 2px 0 #FFFFFF;
+	margin-bottom: 75px;
+	color: #404040;
+}
+
+ .olvido_contraseña ul {
+	 width: 750px;
+	 list-style-type: none;
+	 list-style-position: outside;
+	 margin: 0px; 
+	 padding: 0px;
+ }
+ 
+ .olvido_contraseña li {
+	 padding: 12px;
+	 border-bottom: 1px solid #eee;
+	 position: relative;
+ }
+ 
+ .olvido_contraseña li:first-child, .olvido_contraseña li:last-child {
+	border-bottom: 1px solid #777;
+ }
+ 
+  .olvido_contraseña h1 {
+	 margin: 0;
+	 display: inline;
+ }
+ 
+  .olvido_contraseña label {
+	 width: 150px;
+	 margin-top: 3px;
+	 display: inline-block;
+	 float: left;
+	 padding: 3px;
+ }
+ 
+ .olvido_contraseña input { 
+	 height: 20px;
+	 width: 220px; 
+	 padding: 5px 8px; 
+	  border: 1px solid #aaa;
+	 box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	 border-radius: 2px; 
+	 padding-right: 30px;
+	 transition: padding .25s;
+ } 
+ 
+ .olvido_contraseña select{
+	height: 30px;
+	 width: 260px; 
+	 padding: 5px 8px; 
+	  border: 1px solid #aaa;
+	 box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	 border-radius: 2px; 
+	 padding-right: 30px;
+	 transition: padding .25s;
+	 }
+ 
+  button.submit {
+	 background-color: #68b12f;
+	 border: 1px solid #509111;
+	 border-radius: 3px; 
+	 box-shadow: inset 0 1px 0 0 #9fd574;
+	 color: white;
+	 font-weight: bold;
+	 padding: 6px 20px;
+	 text-align: center;
+	 text-shadow: 0 -1px 0 #396715;
+ }
+ 
+ button.submit:hover {
+	opacity: .85; cursor: pointer;
+ }
+ 
+ button.submit:active {
+	 border: 1px solid #20911e;
+	 box-shadow: 0 0 10px 5px #356b0b inset;
+}
+ 
+ button.reset {
+	 background-color: #68b12f;
+	 border: 1px solid #509111;
+	 border-radius: 3px; 
+	 box-shadow: inset 0 1px 0 0 #9fd574;
+	 color: white;
+	 font-weight: bold;
+	 padding: 6px 20px;
+	 text-align: center;
+	 text-shadow: 0 -1px 0 #396715;
+	 margin: 0px 0px 0px 10px;
+ }
+ 
+  button.reset:hover {
+	opacity: .85; cursor: pointer;
+ }
+ 
+ button.reset:active {
+	 border: 1px solid #20911e;
+	 box-shadow: 0 0 10px 5px #356b0b inset;
+ }
+ 
+ #acepto{
+	height: 20px;
+	width: 20px;
+	padding: 5px 8px;
+	}
+	
+#submit{
+	text-decoration: none;
+	color: white;
+	} 
+#buscar{
+width:37px;
+margin-top:9px;
+}
+
+#perfil{
+margin-top:6px;
+width:37px;
+}
+#salir{
+width:30px;
+margin-top:10px;
+margin-right:37px;
+
+}
+ .required {
+	color: red;
+	}
